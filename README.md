@@ -22,3 +22,7 @@ This is a simple counter app built by using flask
 
 **Framework:** Flask
 
+## Demo
+
+https://counter-app.vijeshshetty.repl.co/
+

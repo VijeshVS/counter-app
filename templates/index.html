@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      href="{{ url_for('static', filename='css/style.css') }}"
+      rel="stylesheet"
+    />
+
+    <title>Counter App</title>
+  </head>
+  <body>
+    <div class="parent">
+      <h1 id="sale">{{ number }}</h1>
+    </div>
+    <form>
+      <button type="submit" formaction="/increment" class="butt1">
+        <h1 class="text11">+</h1>
+      </button>
+      <button type="submit" formaction="/decrement" class="butt1">
+        <h1 class="text11">-</h1>
+      </button>
+      <br />
+      <button type="submit" formaction="/reset" class="butt2">
+        <h1 class="text12">Reset</h1>
+      </button>
+    </form>
+  </body>
+</html>
